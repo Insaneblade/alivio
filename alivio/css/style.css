@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(../fonts/Lato/Lato-Regular.woff) format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato-Medium";
+    src: url(../fonts/Lato/Lato-Medium.woff) format("woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Lato-Semibold";
+    src: url(../fonts/Lato/Lato-Semibold.woff) format("woff");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url(../fonts/Lato/Lato-Bold.woff) format("woff");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Georgia-Regular";
+    src: url(../fonts/Georgia/Georgia-Regular.woff) format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Georgia-Bold";
+    src: url(../fonts/Georgia/Georgia-Bold.woff) format("woff");
+    font-weight: 700;
+}
+
+body{
+    font-family: 'Lato' ,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    line-height: 150%;
+}
+
+.none{
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.container{
+    max-width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+@media(max-width:1399px){
+    /* .container{
+        width: 100%;
+    } */
+}
+
+@media(max-width:992){
+    body{
+        font-size: 18px;
+    }
+}
+
+.no-scroll{
+    overflow: hidden;
+}
